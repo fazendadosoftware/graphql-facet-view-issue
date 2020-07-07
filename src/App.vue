@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-screen flex flex-col items-center justify-center">
+  <div id="app" class="h-screen flex flex-col items-center justify-center text-3xl">
     <div>Application Count: {{applications.length}}</div>
     <div>Business Capability Count: {{businessCapabilities.length}} </div>
     <div>View Mapping Count (Business Capabilities): {{viewData ? viewData.mapping.length : ''}}</div>
